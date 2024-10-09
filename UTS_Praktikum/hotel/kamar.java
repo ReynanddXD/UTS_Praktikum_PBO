@@ -20,7 +20,6 @@ public class kamar extends reservasi{
         this.harga3 = harga3;
     }
     
-    // Interface
     public void cekKamar(){
         System.out.println("Ketersediaan Kamar:");
         System.out.println("1. " + kamar1 + ": " + (tersedia1 ? "Tersedia" : "Tidak Tersedia") + " - Harga: Rp " + harga1);
